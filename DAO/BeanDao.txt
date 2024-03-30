@@ -1,0 +1,1 @@
+<bean id="materialTypeMasterDao1" class="com.bul.zydex.dao.MaterialTypeMaster.MaterialTypeMasterDaoImpl" parent="sessionFactoryConfig" /> 

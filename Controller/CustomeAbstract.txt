@@ -1,0 +1,9 @@
+ protected MaterialTypeMasterService<MaterialTypeMaster> materialTypeMasterService;
+
+    public MaterialTypeMasterService<MaterialTypeMaster> getMaterialTypeMasterService() {
+        return materialTypeMasterService;
+    }
+
+    public void setMaterialTypeMasterService(MaterialTypeMasterService<MaterialTypeMaster> materialTypeMasterService) {
+        this.materialTypeMasterService = materialTypeMasterService;
+    }

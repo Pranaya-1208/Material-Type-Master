@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS `eprocsuite_sumul`.`material_type_master`;
+CREATE TABLE  `eprocsuite_sumul`.`material_type_master` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `material_type` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
